@@ -1,0 +1,14 @@
+.admin {
+  .title {
+    padding-top: 0.5em;
+    font-weight: 700;
+    color: rgba(0, 130, 29, 0.7);
+    font-family: "Montserrat";
+  }
+
+  .stat-container {
+    padding: 0.5em;
+    display: flex;
+    width: fit-content;
+  }
+}
