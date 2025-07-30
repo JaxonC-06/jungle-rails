@@ -1,0 +1,22 @@
+<tr>
+
+  <td>
+    <%= @order.id %>
+  </td>
+  <td>
+    <%=image_tag(order.product.image.tiny.url, alt: order.product.name) %>
+  </td>
+  <td>
+    <%= order.product.name %>
+  </td>
+  <td>
+    <%= order.product.description %>
+  </td>
+  <td>
+    <%= order.quantity %>
+  </td>
+  <td>
+    <%= order.item_price_cents / 100.0 * order.quantity %>
+  </td>
+
+</tr>
